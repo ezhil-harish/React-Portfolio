@@ -1,0 +1,59 @@
+.s-btn{
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    color: black;
+}
+.s-btn button:active,.s-btn:focus{
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(255, 115, 0);
+}
+.s-btnmain{
+    display: flex;
+    margin: 50px;
+}
+.s-btnmain button{
+    cursor: pointer;
+    margin-right: 15px;
+    padding: 10px 15px;
+}
+@media (max-width:1230px) {
+    .s-btnmain button{
+        padding: 8px 10px;
+        margin-right: 10px;
+    }
+    .s-btnmain{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media (max-width:660px) {
+    .s-btn{
+        font-size: 15px;
+    }
+    .s-btnmain button{
+        padding: 8px 5px;
+        margin-right: 10px;
+    }
+}
+@media (max-width:550px) {
+    .s-btn{
+        font-size: 15px;
+    }
+    .s-btnmain button{
+        padding: 8px 2px;
+        margin-right: 10px;
+    }
+}
+@media (max-width:500px) {
+    .s-btn{
+        font-size: 12px;
+    }
+    .s-btnmain button{
+        padding: 8px 1px;
+        margin-right: 10px;
+    }
+}
